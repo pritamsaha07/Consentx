@@ -4,7 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState, useEffect} from 'react';
 
 const RevokeConsent=({state})=>{
- 
+  const handleupdate=()=>{
+    alert("Transaction is done")
+  }
     const revokeconsent=async(event)=>{
         event.preventDefault()
         const {contract}=state;
@@ -16,6 +18,7 @@ const RevokeConsent=({state})=>{
         const transaction=await contract.revokeConsent(id,holder);
         await transaction.wait();
         console.log("Transaction is done");
+        handleupdate();
         }
       
     return<>

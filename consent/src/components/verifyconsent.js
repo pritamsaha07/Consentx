@@ -41,7 +41,7 @@ const VerifyConsent=({state})=>{
     
    <Button variant="success" type="submit" onClick={verifyconsent}>Verify Cosent</Button>{' '}
    <div>
-      {exist ? <p>Consent is given</p> : <p>Consent is not given</p>}
+      {exist ? <h1>Consent is given</h1> : <h1>Consent is not given</h1>}
     </div>
    
 </>

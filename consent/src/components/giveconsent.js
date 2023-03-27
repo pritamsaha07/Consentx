@@ -16,6 +16,7 @@ const GiveConsent=({state})=>{
         const transaction=await contract.giveConsent(id,holder,issuer,verifier);
         await transaction.wait();
         console.log("Transaction is done");
+        alert("Transaction is done");
     }
     return<>
    <div>

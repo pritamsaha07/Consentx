@@ -38,7 +38,7 @@ function App() {
   console.log(state);
   return (
     <div className="App">
-     <h1>Knoct</h1>
+     <h1>WEB-3.0 Consent </h1>
      <GiveConsent state={state}></GiveConsent>
      <RevokeConsent state={state} ></RevokeConsent>
      <VerifyConsent state={state} ></VerifyConsent>

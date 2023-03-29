@@ -26,7 +26,7 @@ const VerifyConsent=({state})=>{
    <Form >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         
-        <Form.Control id="id1" type="id" placeholder="Enter you ID" />
+        <Form.Control id="id1" type="id" placeholder="Enter your ID" />
     </Form.Group>
     <Form.Group className="mb-3" controlId="formBasicPassword">
        
@@ -39,7 +39,7 @@ const VerifyConsent=({state})=>{
     </Form>
    </div>
     
-   <Button variant="success" type="submit" onClick={verifyconsent}>Verify Cosent</Button>{' '}
+   <Button variant="success" type="submit" onClick={verifyconsent}>Verify Consent</Button>{' '}
    <div>
       {exist ? <h1>Consent is given</h1> : <h1>Consent is not given</h1>}
     </div>

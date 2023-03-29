@@ -26,7 +26,7 @@ const RevokeConsent=({state})=>{
    <Form >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         
-        <Form.Control id="id2" type="id" placeholder="Enter you ID" />
+        <Form.Control id="id2" type="id" placeholder="Enter your ID" />
     </Form.Group>
     <Form.Group className="mb-3" controlId="formBasicPassword">
        
@@ -37,7 +37,7 @@ const RevokeConsent=({state})=>{
     </Form>
    </div>
     
-   <Button variant="success" type="submit" onClick={revokeconsent}>Revoke Cosent</Button>{' '}
+   <Button variant="success" type="submit" onClick={revokeconsent}>Revoke Consent</Button>{' '}
   
   
 </>

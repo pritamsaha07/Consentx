@@ -23,7 +23,7 @@ const GiveConsent=({state})=>{
    <Form >
       <Form.Group className="mb-3" controlId="formBasicEmail">
         
-        <Form.Control id="id" type="id" placeholder="Enter you ID" />
+        <Form.Control id="id" type="id" placeholder="Enter your ID" />
     </Form.Group>
     <Form.Group className="mb-3" controlId="formBasicPassword">
        
@@ -40,7 +40,7 @@ const GiveConsent=({state})=>{
     </Form>
    </div>
     
-   <Button variant="success" type="submit" onClick={giveconsent}>Give Cosent</Button>{' '}
+   <Button variant="success" type="submit" onClick={giveconsent}>Give Consent</Button>{' '}
     
     </>
 }
